@@ -1,0 +1,25 @@
+{
+  "canisters": {
+    "SerendipiaProject_backend": {
+      "main": "src/SerendipiaProject_backend/main.mo",
+      "type": "motoko"
+    },
+    "SerendipiaProject_frontend": {
+      "dependencies": [
+        "SerendipiaProject_backend"
+      ],
+      "source": [
+        "src/SerendipiaProject_frontend/assets"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
