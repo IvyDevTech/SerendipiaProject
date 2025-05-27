@@ -1,13 +1,14 @@
+// Valores de los inputs
+const txtNombre = document.getElementById("txt_nombre");
+const txtIdentity = document.getElementById("txt_intertent_identity");
+const txtTelefono = document.getElementById("txt_telefono");
+const txtCorreo = document.getElementById("txt_correo");
+const txtDireccion = document.getElementById("txt_direccion");
+
 //Registrar
 document.addEventListener("DOMContentLoaded", () => {
   function registrarUsuario() {
     let bandera = true;
-    const txtNombre = document.getElementById("txt_nombre");
-    const txtIdentity = document.getElementById("txt_intertent_identity");
-    const txtTelefono = document.getElementById("txt_telefono");
-    const txtCorreo = document.getElementById("txt_correo");
-    const txtDireccion = document.getElementById("txt_direccion");
-
     // Validar campo nombre
     if (txtNombre.value.trim() === "") {
       bandera = false;
@@ -85,12 +86,6 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
   function consultarUsuario() {
     let bandera = true;
-    const txtNombre = document.getElementById("txt_nombre");
-    const txtIdentity = document.getElementById("txt_intertent_identity");
-    const txtTelefono = document.getElementById("txt_telefono");
-    const txtCorreo = document.getElementById("txt_correo");
-    const txtDireccion = document.getElementById("txt_direccion");
-
     // Validar campo nombre
     if (txtNombre.value.trim() === "") {
       bandera = false;
@@ -168,12 +163,6 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
   function editarUsuario() {
     let bandera = true;
-    const txtNombre = document.getElementById("txt_nombre");
-    const txtIdentity = document.getElementById("txt_intertent_identity");
-    const txtTelefono = document.getElementById("txt_telefono");
-    const txtCorreo = document.getElementById("txt_correo");
-    const txtDireccion = document.getElementById("txt_direccion");
-
     // Validar campo nombre
     if (txtNombre.value.trim() === "") {
       bandera = false;
@@ -249,12 +238,6 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
   function eliminarUsuario() {
     let bandera = true;
-    const txtNombre = document.getElementById("txt_nombre");
-    const txtIdentity = document.getElementById("txt_intertent_identity");
-    const txtTelefono = document.getElementById("txt_telefono");
-    const txtCorreo = document.getElementById("txt_correo");
-    const txtDireccion = document.getElementById("txt_direccion");
-
     // Validar campo nombre
     if (txtNombre.value.trim() === "") {
       bandera = false;
