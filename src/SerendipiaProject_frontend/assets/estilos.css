@@ -1,0 +1,46 @@
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.cnt_gral {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 98vh;
+}
+
+.cnt_formularioSerendipia {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  max-width: 400px;
+  max-height: 140vw;
+  border: 3px double white;
+}
+
+.txt {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.cnt_botones {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
