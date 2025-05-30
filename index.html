@@ -6,6 +6,10 @@
     <link href="estilos.css" rel="stylesheet" />
     <link href="Alertas.css" rel="stylesheet" />
     <title>Serendipia ICP Project (ICP)</title>
+    <script src="https://unpkg.com/@dfinity/agent@0.15.6/dist/index.min.js"></script>
+    <script src="https://unpkg.com/@dfinity/principal@0.15.6/dist/index.min.js"></script>
+    <script type="module" src="contador_idljs.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </head>
   <body>
     <div class="cnt_gral">
@@ -14,7 +18,6 @@
           Serendipia Project (ICP)
         </h1>
         <br />
-        <label>Nombre:</label>
         <input class="txt" type="text" id="txt_nombre" />
         <label>Teléfono:</label>
         <input class="txt" type="tel" id="txt_telefono" />
@@ -23,7 +26,7 @@
         <label>Dirección:</label>
         <input class="txt" type="text" id="txt_direccion" />
         <label>idRegistro:</label>
-        <input class="txt" type="text" id="txt_idRegistro" />
+        <input class="txt" type="text" id="txt_idRegistro" readonly />
         <div class="cnt_botones">
           <button id="registrar">Registrar</button>
           <button id="consultar">Consultar</button>
@@ -32,7 +35,7 @@
         </div>
       </div>
     </div>
-    <script src="./funciones.js"></script>
-    <script src="./Alertas.js"></script>
+    <script src="funciones.js"></script>
+    <script src="Alertas.js"></script>
   </body>
 </html>
