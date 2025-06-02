@@ -1,7 +1,7 @@
   {
        "canisters": {
            "backend": {
-               "main": "src/SerendipiaProject_backend/contador.mo",
+               "main": "src/backend/contador.mo",
                "type": "motoko"
            }
        },
